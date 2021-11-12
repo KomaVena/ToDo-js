@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: thistle;
+}
+
+header {
+    font-size: 1rem;
+    font-family: 'Mohave', sans-serif;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    border-width: 0.5px;
+    border-top: none;
+    border-right: none;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+form button {
+    border-width: 0.5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background: rgb(255, 217, 93);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+form button:hover {
+    background: rgb(136, 255, 142);
+}
+
+
+/*child todo style*/
+
+.todo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-ul {
+    min-width: 18%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.plusBtn,
+.minusBtn {
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(255, 148, 148);
+}
+
+.plusBtn {
+    background-color: rgb(136, 255, 142);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.btnAdd {
+    opacity: 0.5;
+}
+
+
+/* btn fix */
